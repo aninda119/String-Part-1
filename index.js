@@ -6,6 +6,7 @@ let str3 = "Dey";
 console.log(str1 === str2);//true
 console.log(str1 === str3);//false
 */
+--------------------------------------------------------------------------------------------------
 //Sort a string in JavaScript
 //sorting the given string by the use of the sort() function.
 /*
@@ -15,6 +16,7 @@ let sortingString = (Stringg) => {
 console.log("sorted string:");
 console.log(sortingString("AnindaSEY"));
 */
+  ------------------------------------------------------------------------------------------------
 //sorting the given string by the use of the sort(), localCompare(), and join() functions.
 /*
 let sortString = (str) => {
@@ -23,6 +25,7 @@ let sortString = (str) => {
 console.log("sorted string:");
 console.log(sortString("AnindaDey"));
 */
+  -------------------------------------------------------------------------------------------
 //How to convert string into float in JavaScript?
 //By using Number() constructor
 /*
@@ -30,12 +33,14 @@ let stringNumber = "3.14";
 let floatNumber = Number(stringNumber);
 console.log(floatNumber);
 */
+  --------------------------------------------------------------------------------------------
 //Write a JavaScript function to split a string and convert it into an array of words.
 /*
 Test Data :
 console.log(string_to_array("Robin Singh"));
 ["Robin", "Singh"]
 */
+  
 /*
 stringToArray = function (str) {
   return str.trim().split("");
